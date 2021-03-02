@@ -2,7 +2,7 @@ def calculate_apr(principal, interest_rate , years ):
     """This function takes on three paramaters since its the the main function"""
     x= 0
     """Made a varible to equal to zero because the parameters need to be greater than 0"""
-    if principal <= x or interest_rate <= 0 or years <= 0:
+    if principal <= x or interest_rate <= x or years <= x:
        return False
     """I made this if statement because it would return false when parameters are less than 0"""
     while x < years:
