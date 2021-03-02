@@ -13,7 +13,7 @@ def calculate_time(func):
 def print_time():
     '''The reason to write this function is because it prints out the phase'''
     print('Total time X')
-
+    time.sleep(2)
 
 print_time()
-time.sleep(2)
+
