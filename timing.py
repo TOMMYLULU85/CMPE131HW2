@@ -3,9 +3,11 @@ def calculate_time(func):
      '''This calculate time is here because its the main function'''
      def wrapper():
       '''You would need this function because it prints out time'''
-      X= time.time()
+      x = time.time()
       func()
-      print(f"Total time {X}")
+      y = time.time()
+      print(f"Total time {int(y)-int(x)}")
+
      return wrapper
 
 @calculate_time
