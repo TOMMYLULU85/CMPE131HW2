@@ -8,7 +8,7 @@ def calculate_apr(principal, interest_rate , years ):
     while x < years:
       principal = float(principal)*(1+ float(interest_rate))**float(years)
       x=x+1
-      return abs(principal)
+      return principal
     """This while loop goes after because we need to check if its negative then if its not it would loop"""
     """x is less than years because once the person gets more money as they get older"""
 print(calculate_apr(principal=200, interest_rate=0.04,years=65))
