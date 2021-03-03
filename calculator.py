@@ -17,7 +17,7 @@ def calculator(number1, number2, operator):
 
       """These if statements are here because it goes through input_output and checks if its the right operation sign"""
       """The else statement is here because once the operation signs are not the ones listed above then it leaves"""
-      return operator
+
 def input_output():
      """This function doesnt take any parameters due to it not needing it since it just prints out user inputs"""
      while True:
