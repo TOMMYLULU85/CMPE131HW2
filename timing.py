@@ -11,12 +11,10 @@ def calculate_time(func):
      return wrapper
 
 @calculate_time
-def test_time():
-      time.sleep(2)
-test_time()
-
-
-
+def sleep_time():
+    time.sleep(2)
+sleep_time()
+"""Added in this function because you would need to call another function in order to use the one in wrapper"""
 
 
 
