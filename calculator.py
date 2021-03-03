@@ -7,8 +7,12 @@ def calculator(number1, number2, operator):
       elif operator == '*':
         return float(number1)*float(number2)
       elif operator == '/':
+        if number2 == 0:
+           print("Can't divide by Zero")
         return float(number1)/float(number2)
       elif operator == '//':
+        if number2 ==0:
+           print("Can't divide by Zero")
         return float(number1)//float(number2)
       elif operator == '**':
         return float(number1)**float(number2)
