@@ -1,17 +1,17 @@
 def calculator(number1, number2, operator):
       """This function takes in 3 parameters because it needs the 3 parameters for the if statements"""
       if operator == '+':
-        print(float(number1)+float(number2))
+        print(int(number1)+int(number2))
       elif operator == '-':
-        print(float(number1)-float(number2))
+        print(int(number1)-int(number2))
       elif operator == '*':
-        print(float(number1)*float(number2))
+        print(int(number1)*int(number2))
       elif operator == '/':
-        print(float(number1)/float(number2))
+        print(int(number1)/int(number2))
       elif operator == '//':
-        print(float(number1)//float(number2))
+        print(int(number1)//int(number2))
       elif operator == '**':
-        print(float(number1)**float(number2))
+        print(int(number1)**int(number2))
       else:
         return False
 
